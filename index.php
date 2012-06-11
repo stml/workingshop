@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>sea</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="sea.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="config" style="display:none">
+<span id="slices"><? echo $_GET['slices']; ?></span>
+<span id="tags"><? echo $_GET['tags']; ?></span>
+</div>
+<div id="info" style="display:none">
+<p class="tags"></p>
+<p class="progress"></p>
+</div>
+<div id="container">
+
+</div>
+</body>
+</html>
